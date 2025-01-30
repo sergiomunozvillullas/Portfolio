@@ -21,7 +21,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Agrega sombra para visibilidad */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 nav ul {
@@ -133,7 +133,6 @@ nav ul li a:hover {
     transform: scale(1.2);
 }
 
-/* Estilos para Idiomas */
 .languages {
     margin-top: 1.5rem;
     text-align: center;
@@ -152,10 +151,10 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
-/* Estilos para detalles adicionales de contacto */
 .additional-info {
     margin-top: 1.5rem;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 .additional-info a {
@@ -167,17 +166,15 @@ footer {
     background-color: rgba(30, 30, 47, 0.9);
     color: white;
     text-align: center;
-    padding: 0.1rem;
-    position: fixed; /* Cambiado de 'static' a 'fixed' */
+    padding: 0.5rem;
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    z-index: 999; /* Asegura que esté por debajo del menú */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Agrega sombra para mayor visibilidad */
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero {
         padding: 3rem 1rem;
@@ -241,5 +238,4 @@ footer {
     .languages, .additional-info {
         font-size: 0.9rem;
     }
-
 }
